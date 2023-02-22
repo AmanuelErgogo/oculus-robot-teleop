@@ -13,8 +13,8 @@ repo_urls=(
 )
 
 # Create the catkin workspace
-mkdir -p ~/$workspace_name/$source_dir
-cd ~/$workspace_name/$source_dir
+mkdir -p /$workspace_name/$source_dir
+cd /$workspace_name/$source_dir
 catkin_init_workspace
 
 # Clone the repositories into the source directory
@@ -24,9 +24,9 @@ do
 done
 
 # Build the catkin workspace
-cd ~/$workspace_name
+cd /$workspace_name
 catkin_make
 
-cd ~/$workspace_name
+cd /$workspace_name
 source devel/setup.bash
-
+roslaunch ros_tcp_endpoint endpoint.launch
