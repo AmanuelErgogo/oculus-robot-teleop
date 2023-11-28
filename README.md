@@ -13,3 +13,5 @@ This repo is developed to run ----- with Isaac-Orbit to teleoperate robot with o
 ```python
   ./run.bash
 ```
+![Descriptive Text](hilo_exp_setup.png)
+
