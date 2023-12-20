@@ -13,5 +13,5 @@ This repo is developed to run ----- with Isaac-Orbit to teleoperate robot with o
 ```python
   ./run.bash
 ```
-![Descriptive Text](virtual environment.png)
+![Descriptive Text](Virtual environment.png)
 
