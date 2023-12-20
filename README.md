@@ -1,5 +1,5 @@
 # oculus-robot-teleop
-![Descriptive Text](HiLoTEL.drawio(1).png)
+![Descriptive Text](diagram_masked.png)
 
 This repo is developed to run ----- with Isaac-Orbit to teleoperate robot with oculus quest headset.
 - Install the teleop app in oculus
@@ -13,5 +13,5 @@ This repo is developed to run ----- with Isaac-Orbit to teleoperate robot with o
 ```python
   ./run.bash
 ```
-![Descriptive Text](hilo_exp_setup.png)
+![Descriptive Text](virtual environment.png)
 
